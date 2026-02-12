@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -38,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.DepartmentServiceApplication.executor": "Run",
     "Spring Boot.EmployeeServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/springbootacademy/microservices-communication/microservices",
     "node.js.detected.package.eslint": "true",
@@ -99,6 +103,7 @@
       <workItem from="1770741028861" duration="1001000" />
       <workItem from="1770773708253" duration="7095000" />
       <workItem from="1770781122111" duration="5579000" />
+      <workItem from="1770862199440" duration="4854000" />
     </task>
     <servers />
   </component>
