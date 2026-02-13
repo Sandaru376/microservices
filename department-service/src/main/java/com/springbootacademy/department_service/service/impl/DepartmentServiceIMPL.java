@@ -23,7 +23,7 @@ public class DepartmentServiceIMPL implements DepartmentService {
                 departmentDto.getId(),
                 departmentDto.getDepartmentName(),
                 departmentDto.getDepartmentDescription(),
-                departmentDto   .getDepartmentCode()
+                departmentDto.getDepartmentCode()
         );
 
         Department savedepartment1=departmentRepository.save(department);
