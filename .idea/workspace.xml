@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7001fee-8262-4e06-b379-2dc77316a1ca" name="Changes" comment="" />
+    <list default="true" id="f7001fee-8262-4e06-b379-2dc77316a1ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/service/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/springbootacademy/department_service/service/impl/DepartmentServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/springbootacademy/department_service/service/impl/DepartmentServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/dto/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/springbootacademy/employee_service/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +27,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -34,6 +52,9 @@
   "keyToString": {
     "Maven.department-service [clean].executor": "Run",
     "Maven.department-service [install].executor": "Run",
+    "Maven.department-service [package].executor": "Run",
+    "Maven.employee-service [clean].executor": "Run",
+    "Maven.employee-service [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -41,9 +62,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.DepartmentServiceApplication.executor": "Run",
     "Spring Boot.EmployeeServiceApplication.executor": "Run",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/springbootacademy/microservices-communication/microservices",
+    "last_opened_file_path": "F:/springbootacademy/microservices/service-registry/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,11 +75,21 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "settings.editor.splitter.proportion": "0.26605505",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.EmployeeServiceApplication">
     <configuration name="DepartmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="department-service" />
@@ -74,6 +107,13 @@
     <configuration name="EmployeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="employee-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springbootacademy.employee_service.EmployeeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.service_registry.ServiceRegistryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,6 +144,8 @@
       <workItem from="1770773708253" duration="7095000" />
       <workItem from="1770781122111" duration="5579000" />
       <workItem from="1770862199440" duration="4854000" />
+      <workItem from="1770910355248" duration="1878000" />
+      <workItem from="1770916346646" duration="12489000" />
     </task>
     <servers />
   </component>
